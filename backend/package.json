@@ -1,0 +1,17 @@
+{
+  "name": "ghostclaim-shield-backend",
+  "version": "1.0.0",
+  "description": "GhostClaim Shield - AI-powered fraud detection for fake death certificates used to steal pensions",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed/seedDatabase.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1"
+  }
+}
